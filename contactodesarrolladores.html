@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Contacto</title>
+    <meta name="author" content="Rayón Salinas Ariana" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="pagina web de selectores" />
+    <link rel="stylesheet" type="text/css" href="css/estiloperfil.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul class="unorder">
+        <li><a href="vistacursoprofesor.html">INICIO</a></li>
+        <li></li>
+        <li>
+          <a href="#cursos">CURSO</a>
+          <ul>
+            <li><a href="#sexto">6to PRIM</a></li>
+          </ul>
+        </li>
+
+        <li></li>
+        <li><a href="#material">MATERIAL</a></li>
+        <li></li>
+        <li><a href="contactodesarrolladores.html">CONTACTO</a></li>
+        <li></li>
+        <li style="float: right">
+          <a href="vistacursoprofesor.html">REGRESAR</a>
+        </li>
+      </ul>
+    </div>
+
+    <form action="/action_page.php">
+      <div class="perfil">
+        <label for="nombreusr">Nombre:</label><br />
+        <input
+          type="text"
+          id="nombreusr"
+          name="nombreusr"
+          placeholder="Ingresa tú nombre..."
+        /><br />
+
+        <label for="apaternousr">Apellido paterno:</label><br />
+        <input
+          type="text"
+          id="apaternousr"
+          name="apaternousr"
+          placeholder="Ingresa tú apellido paterno..."
+        /><br /><br />
+
+        <label for="amaternousr">Apellido materno:</label><br />
+        <input
+          type="text"
+          id="amaternousr"
+          name="amaternousr"
+          placeholder="Ingresa tú apellidompaterno..."
+        /><br /><br />
+
+        <label for="correoprof">Correo:</label><br />
+        <input
+          type="text"
+          id="correousr"
+          name="correousr"
+          placeholder="Ingresa tú corrreo..."
+        /><br /><br />
+        <label for="correoprof">Mensaje:</label><br />
+        <textarea
+          id="contactousr"
+          name="contactousr"
+          rows="15"
+          cols="40"
+          placeholder="Cuéntanos el motivo de contacto..."
+        ></textarea>
+      </div>
+      <div class="enviar">
+        <input type="submit" value="Enviar" />
+      </div>
+    </form>
+  </body>
+</html>
