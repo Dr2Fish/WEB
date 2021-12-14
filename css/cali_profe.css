@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/4364097.jpg);
+  flex-direction: column;
+  color: aliceblue;
+}
+table {
+  background-color: blueviolet;
+  color: black;
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 2px 4px 10px 5px #242222;
+}
+
+.btn-regreso {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.btn-regresar {
+  margin: 1em 0 0 1em;
+  width: 20%;
+  height: 40px;
+  background-color: yellow;
+  border-radius: 1em;
+}
+.btn-regresar > a {
+  text-decoration: none;
+}

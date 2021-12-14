@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: Calisto MT;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.header {
+  height: 60px;
+  background: #094399;
+}
+
+.header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu_link {
+  display: block;
+  padding: 16px;
+  background: none;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.menu_link:hover {
+  color: #fff;
+}
+
+.contenedor .baner {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+.logo {
+  z-index: 100;
+}

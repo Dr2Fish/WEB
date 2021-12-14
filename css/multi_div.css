@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-image: url("img/278.jpg");
+    background-size: cover;
+    width:100%;
+    border: 1px solid black;
+
+}
+.contenedor{
+    margin: 5em auto;
+    width: 70%;
+    border: 1px solid yellow;
+}
+p{
+    color:rgb(240, 231, 231)
+}
+
+.contiene-imagen{
+    width: 100%;
+    border: 1px solid red;
+}
+.portada{
+   background: url(https://fondosmil.com/fondo/3289.jpg) no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100% ;
+   text-align: justify;
+ 
+}
+.text{
+  margin: 30px 0px 30px 0px;    
+  padding: 10px;
+  background: rgba(0,0,0,0.2);
+  display: inline-block;
+
+}
